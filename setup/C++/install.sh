@@ -5,4 +5,4 @@ source "${SCRIPT_DIR}/../vars.sh"
 
 ## Installation steps
 
-sudo apt-get install gnat
+sudo apt-get install build-essential
