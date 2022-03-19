@@ -11,10 +11,8 @@ dirname="chapel-1.15.0"
 
 # Download and enter the directory
 cd "$TMPDIR"
-wget "$dl_link"
+wget "$dl_link" -O "$tarname"
 tar -xf "$tarname"
-
-rm "$tarname"
 
 pushd "$dirname"
 
