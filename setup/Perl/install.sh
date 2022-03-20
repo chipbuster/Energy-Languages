@@ -10,7 +10,6 @@ tarname="perl-5.24.0.tar.xz"
 dirname="perl-5.24.0"
 installdir="/usr/local/src/perl-5.24.0/"
 
-
 cd "$TMPDIR"
 
 wget "$dl_link" -O "$tarname"
